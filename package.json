@@ -1,0 +1,22 @@
+{
+  "name": "ray-hack-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dartmouth-cs98/hack-a-thing-21f-1-ray.git"
+  },
+  "author": "Ray Crist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dartmouth-cs98/hack-a-thing-21f-1-ray/issues"
+  },
+  "homepage": "https://github.com/dartmouth-cs98/hack-a-thing-21f-1-ray#readme",
+  "dependencies": {
+    "botbuilder-adapter-web": "^1.0.9"
+  }
+}
