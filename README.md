@@ -8,7 +8,7 @@ I have previously used Botkit to make simple chatbots, but I wanted to add NLP t
 
 It didn't work perfect, see below, but I can see how adding large amounts of training data can make this assistant very powerful, and definetly usable for a final project.
 
-![Botkit Show]()
+![Botkit Show](https://github.com/dartmouth-cs98/hack-a-thing-21f-1-ray/blob/main/img/bot-example.png)
 
 ## What you learned
 
