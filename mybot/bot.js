@@ -44,6 +44,7 @@ if (process.env.CMS_URI) {
     }));
 }
 
+// RAY: My custom middleware function, to add on prediction data to Luis.
 async function luisMiddleware(bot, message, next) { 
   try {
     link = `https://westus.api.cognitive.microsoft.com/luis/prediction/v3.0/apps/${process.env.LUIS_APP}/slots/production/predict?subscription-key=${process.env.LUIS_SUB_KEY}&verbose=true&show-all-intents=true&log=true&query=${message.text}`
@@ -65,6 +66,7 @@ controller.ready(() => {
     // load traditional developer-created local custom feature modules
     controller.loadModules(__dirname + '/features');
 
+    // RAY: set up my middleware
     controller.middleware.receive.use(luisMiddleware);
 
     /* catch-all that uses the CMS to trigger dialogs */
