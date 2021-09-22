@@ -20,7 +20,7 @@ I didn't end up writing a ton of code; the major challenges were a) setting up M
 
 In addition to my code (in bot-convo.js and bot.js), I had to build Luis' model in Azure Services. The Luis API allows you to develop training models in a low-code interface.
 
-![Luis.AI]()
+![Luis.AI](https://github.com/dartmouth-cs98/hack-a-thing-21f-1-ray/blob/main/img/training.png)
 
 ## Authors
 
